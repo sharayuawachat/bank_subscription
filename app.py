@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load dataset
-df = pd.read_csv('bank_data.csv')  # Replace with your filename
+df = pd.read_csv('Bank.csv')  
 
 # Preprocessing
 for col in df.columns:
